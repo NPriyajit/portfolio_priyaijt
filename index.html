@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>N.Priyajit</title>
+    <link rel="icon" href="images/mypic.jpg">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <body onload="load()">
+    <div class="frame" id="home">
+      <header>
+        <div class="topmenu">
+          <h5>
+            <i class="fa fa-user-circle" style="margin-right:10px;"></i
+            >Portfolio
+          </h5>
+          <p class="colormode">
+            <i class="fa fa-sun-o mr-1"></i>Color Mode
+          </p>
+        </div>
+        <main class="main">
+          <section class="page content">
+              <div id="mySidenav" class="fa fa-bars hamberg" onclick="navon()"></div>
+            <aside class="navigation col-sm-3">
+             <!--  <nav class="nav navbar-expand-lg flex-column navbar-dark ">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarText"
+                  aria-controls="navbarText"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                
+                <div class="navbar" id="navbarText">
+                    
+                  <ul class="nav mr-auto navigationbox">
+                    <li class="nav-item">
+                      <a href="#home" id="homebtn" class="nav-link active">
+                        <i class="fa fa-home mr-auto fa-fw"></i>
+                        Home
+                      </a>
+                    </li>
+                    <li class="nav-item abouticon">
+                      <a href="#about" class="nav-link">
+                        <i class="fa fa-user mr-auto fa-fw"></i>
+                        About
+                      </a>
+                    </li>
+
+                    <li class="nav-item skills">
+                      <a href="#skills" class="nav-link">
+                        <i class="fa fa-cogs mr-auto fa-fw"></i>
+                        Skills
+                      </a>
+                    </li>
+                    <li class="nav-item projecticon">
+                      <a href="#projects" class="nav-link ">
+                        <i class="fa fa-cubes mr-auto  fa-fw"></i>
+                        Projects
+                      </a>
+                    </li>
+                    <li class="nav-item contacticon">
+                      <a href="#contact" class="nav-link ">
+                        <i
+                          class="fa fa-phone-square mr-auto  fa-fw"
+                        ></i>
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            
+            </aside>
+            <div class="about">
+            
+              <div class="name"><h1 class="hello">Hello!!</h1>
+            
+              </div>
+              <div class="tag">
+                <h4 class="display-5" style="font-weight:200">
+                  The <span class="txt-type" data-wait="3000" data-words='["Developer", "Designer", "Creator"]'></span>      
+                </h4>
+              </div>
+            </div>
+           <!--  <div class="myimage">
+              <img class="mypic rounded mx-auto d-block" src="./images/mypic.jpg" />
+            </div> -->
+          </section>
+
+          <section class="aboutMe" id="about">
+              
+              <h2 id="abouthead" val="0">About Me</h2>
+             <div class="desc">
+              <p id="descdata">
+                Hello, I am N.Priyajit, aged 20 years old, from Cuttack, Odisha, India. I Pursued H.S.C from Kulasarichuan High School, Odisha in 2014, and then carried on my CHSE with science stream from Sudarshan Mahabidyala, 42 Mouza, Cuttack. Furthermore I accomplished my Graduation in Information Technology and Management at Ravenshaw University, Cuttack, Odisha.
+                </p>
+              <p id="descdata">
+              Learned Technical Languages for instance, those are: C, C++, JAVA SE, JAVA EE, Python, Django, PHP, Node js, and Web Technologies (HTML, CSS, JavaScript, JQuery), and moreover worked with SQL servers like MS SQL, Sqllite3, MongoDB, and MySQL.
+              </p>
+                      
+              <p id="descdata">        
+                My leisure interests are Painting, Singing, Beatboxing including Programming. Nowadays I am just deeply navigating through different programming languages like Python, Javascript, and Java. I recently got started to working with useful APIs of different Programming languages.
+              </p>  
+                      
+              <p id="descdata">    
+                Recently finalized One Academic Project named "e-logistics solutions" and, I have successfully initiated some self-made web-projects with many contrasting developing languages.
+              </p>
+              <p id="descdata">  
+                Projects:
+                1. E-Logistics solutions. [HTML, CSS, BS, JS, JSP],
+                2. E-Learning Portal. [HTML, CSS, BS, JS, Django],
+                3. Friend-In-Need Chat App. [HTML, CSS, BS, jQuery, PHP],
+                4. Password Generator [HTML,CSS, JS]
+                5. E-Shopping Cart.  [HTML, CSS, BS, JS, Node Js].
+                
+              </p>
+               <p id="descdata">   
+                In short got some certificates on painting and singing during my schooling time, additionally got a coding certificate in C language coding test, named "C Marathon" controled at LIT, BBSR, Odisha.
+              </p>
+             </div>
+          </section>
+          <section class="skill" id="skills">
+              <h2>My Skills</h2>
+              <div class="data">
+                  <h5>Programming<span class="development">Languages</span></h5>
+                  <div class="programminglang" setwidth='80%' name="C">
+                    <svg height="40" width="100">
+                        <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                    </svg>
+                    <p>C <span class="development">Language</span></p>
+                   </div>
+                
+                    <div class="programminglang" setwidth='60%' name="C++">
+                    <svg height="40" width="100">
+                        <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                    </svg>
+                    <p>C++ <span class="development">Language</span> </p>
+                   </div>
+                    <div class="programminglang" setwidth='75%' name='Java'>
+                    <svg height="40" width="100">
+                        <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                    </svg>
+                    <p >Java SE</p>
+                   </div>
+                    <div class="programminglang" setwidth='50%' name='Python'>
+                   <svg height="40" width="100">
+                        <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                    </svg>
+                    <p class="mt-3">Python</p>
+                   </div>
+                   
+                </div>
+
+
+                <div class="data1">
+                        <h5>Web<span class="development"> Developement</span></h5>
+                        <div class="webdev" setwidth='91%' name='HTML'>
+                          <svg height="40" width="100">
+                              <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                          </svg>
+                          <p>HTML5</p>
+                         </div>
+                          <div class="webdev" setwidth='82%' name="CSS">
+                          <svg height="40" width="100">
+                              <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                          </svg>
+                          <p>CSS</p>
+                         </div>
+                          <div class="webdev" setwidth='80%' name='BS'>
+                          <svg height="40" width="100">
+                              <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                          </svg>
+                          <p >Bootstrap</p>
+                         </div>
+                          <div class="webdev" setwidth='76%' name="JS">
+                         <svg height="40" width="100">
+                              <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                          </svg>
+                          <p class="mt-3">JavaScript</p>
+                         </div>
+                          <div class="webdev" setwidth='45%' name='JQuery'>
+                         <svg height="40" width="100">
+                              <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                          </svg>
+                          <p class="mt-3">JQuery</p>
+                         </div>
+                      </div>
+
+                      <div class="data2">
+                            <h5 >Backend <span class="development">Developement</span></h5>
+                            <div class="backendlang" setwidth='79%'name='JSP'>
+                              <svg height="40" width="100">
+                                  <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                              </svg>
+                              <p>Java EE</p>
+                             </div>
+                              <div class="backendlang" setwidth='70%' name='Django'>
+                              <svg height="40" width="100">
+                                  <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                              </svg>
+                              <p>Django</p>
+                             </div>
+                              <div class="backendlang" setwidth='55%' name='PHP'>
+                              <svg height="40" width="100">
+                                  <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                              </svg>
+                              <p >PHP</p>
+                             </div>
+                              <div class="backendlang" setwidth='45%' name='Node js'>
+                             <svg height="40" width="100">
+                                  <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                              </svg>
+                              <p class="mt-3">Node js</p>
+                             </div>
+                              
+                        </div>
+
+                        <div class="data3">
+                                <h5 >Personal Skills</h5>
+                                <div class="personalskill" setwidth='60%' name='Painting'>
+                                  <svg height="40" width="100">
+                                      <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                                  </svg>
+                                  <p>Painting</p>
+                                 </div>
+                                  <div class="personalskill" setwidth='70%' name='BeatBox'>
+                                  <svg height="40" width="100">
+                                      <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                                  </svg>
+                                  <p>BeatBoxing</p>
+                                 </div>
+                                  <div class="personalskill" setwidth='65%' name='Singing'>
+                                  <svg height="40" width="100">
+                                      <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                                  </svg>
+                                  <p >Singing</p>
+                                 </div>
+                                  <div class="personalskill" setwidth='60%' name='Gaming'>
+                                 <svg height="40" width="100">
+                                      <circle cx="50" cy="20" r="15" stroke="black" stroke-width="1" fill="gray" />
+                                  </svg>
+                                  <p>Gaming</p>
+                                 </div>
+                                  
+                            </div>
+          </section>
+          <section class="projects" id="projects">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <i class="close fa fa-close rounded-bottom"></i> 
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" style="color:black;" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              <h2>My Projects</h2>
+              <div class="projectfiles text-center">
+                  <div class="first">
+                    <img src="./images/elog/elog.png">
+                    
+                    <div class="options">
+                      <a href="https://github.com/NPriyajit/Elogistics_Solution-javaEE" target="_blank" class="icon1">
+                       <i class="fa fa-code"></i>
+                      </a> 
+                      <a  class="icon2">
+                        <i class="fa fa-eye"></i>
+                      </a>
+                      </div>  
+                    <h6>Elogistics Solutions [Advance Java]</h6>
+                 
+                      
+                  </div>
+                  <div class="second">
+                    <img src="./images/elearn/elearn.png">
+                    <h6>Elearn [Django]</h6>
+                    <div class="options">
+                      <a href="https://github.com/NPriyajit/Elearning-Portal-py" target="_blank" class="icon1">
+                       <i class="fa fa-code" title="Visit code"></i>
+                      </a> 
+                      <a class="icon2">
+                        <i class="fa fa-eye"></i>
+                      </a>
+                      </div>  
+                  </div>
+                  <div class="third">
+                    <img src="./images/fin/fin.png">
+                    <h6>FIN [PHP]</h6>
+                    <div class="options">
+                      <a href="https://github.com/NPriyajit/FIN-php" target="_blank" class="icon1">
+                       <i class="fa fa-code"></i>
+                      </a> 
+                      <a class="icon2">
+                        <i class="fa fa-eye"></i>
+                      </a>
+                      </div>  
+                  </div>
+                
+                  <div class="proje">
+                  <div class="first1">
+                    <img src="./images/pass/pass.png"> 
+                    <h6>Pass Generator</h6>
+                    <div class="options">
+                      <a href="https://github.com/NPriyajit/Password-Generator" target="_blank" class="icon1">
+                       <i class="fa fa-code"></i>
+                      </a> 
+                      <a class="icon2">
+                        <i class="fa fa-eye"></i>
+                      </a>
+                      </div>
+                    </div>
+                      <a href="https://passgenerator.netlify.com/index.htm" target="blank"><li id="live">LIVE</li></a>
+                  </div>
+                
+                  
+                </div>
+          </section>
+
+          <section class="contact" id="contact">   
+            <h2>Contact Me</h2>
+            <div class="contacticons">
+             
+            <div class="linkedin" onclick="window.open('https://www.linkedin.com/in/n-priyajit','_blank')">
+                <i class="fa fa-linkedin"></i>
+                <p id="iconame">Linked In</p>
+            </div>
+            <div class="stackoverflow"  onclick="window.open('https://stackoverflow.com/users/12013708/priyajit','_blank')">
+              <i class="fa fa-stack-overflow"></i>
+                <p id="iconame">Stackoverflow</p>
+            </div>
+            <div class="facebook"  onclick="window.open('https://www.facebook.com/profile.php?id=100022337961424','_blank')">
+              <i class="fa fa-facebook"></i>
+                <p id="iconame">facebook</p>
+            </div>
+          
+            </div>
+
+            <div class="contacticons1">
+             
+                <div class="github"  onclick="window.open('https://github.com/NPriyajit','_blank')">
+                  <i class="fa fa-github"></i>
+                    <p id="iconame">GitHub</p>
+                </div>
+                <div class="sololearn"  onclick="window.open('https://www.sololearn.com/Profile/5624806','_blank')">
+                  <i class="fa fa-laptop"></i>
+                    <p id="iconame">SoloLearn</p>
+                </div>
+                <div class="twitter"  onclick="window.open(' https://twitter.com/n_priyajit','_blank')">
+                  <i class="fa fa-twitter"></i>
+                    <p id="iconame">twitter</p>
+                </div>
+               
+                </div>
+
+                <div class="contacticons2">
+             
+                <div class="reddit"  onclick="window.open(' https://www.reddit.com/user/Priyajit_Nayak','_blank')">
+                  <i class="fa fa-reddit"></i>
+                    <p id="iconame">Reddit</p>
+                </div>
+                <div class="instagram"  onclick="window.open('https://www.instagram.com/_npriyajit/','_blank')">
+                  <i class="fa fa-instagram"></i>
+                    <p id="iconame">Instagram</p>
+                </div>
+                    <div class="blogger"  onclick="window.open('https://techadminstrator.blogspot.com/','_blank')">
+                      <i class="fa fa-link"></i>
+                        <p id="iconame">Blogger</p>
+                    </div>
+                </div>
+               
+                
+                <div class="contacticons3">
+             
+                    <div class="quora"  onclick="window.open('https://www.quora.com/profile/Priyajit-Nayak-5','_blank')">
+                      <i class="fa fa-quora"></i>
+                        <p id="iconame">Quora</p>
+                    </div>
+                    <div class="email"  onclick='window.location.href = "mailto:npriyajit122@gmail.com";'>
+                      <i class="fa fa-envelope"></i>
+                        <p id="iconame">Email - Id</p>
+                    </div>
+                </div>
+                <div class="copyright">&copy <span id="yyyy"></span> N.Priyajit All Rights Reserved</div>
+                  <script>
+                    var d = new Date();
+                    var n = d.getFullYear();
+                   document.getElementById("yyyy").innerHTML=n;
+                  </script>
+    
+      
+          </section>
+
+        </main>
+      </header>
+<!-- 
+      <div class="footerbar">
+          <div class="quicklinks">
+            <a href="#home">Home</a>
+           
+            <a href="#about">About</a>
+           
+            <a href="#skills">Skills</a>
+           
+            <a href="#projects">Projects</a>
+          </div>
+          <div class="copyright">&copy All copyright reserved by Mr. N.Priyajit</div>
+          <div class="socialmedia">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-linkedin"></i>
+          </div>
+        </div> -->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+       <script src="./type.js"></script>
+     <script src="./app.js"></script>
+  </body>
+</html>
